@@ -1,25 +1,26 @@
 
-.Notifications {
-    border: 1px dashed #c1384c ;
-    padding: 10px;
-    width: 400px;
-  }
-  
-  
-  .Notifications [data-notification-type="default"] {
-    color: blue;
-  }
-  
-  .Notifications [data-notification-type="urgent"] {
-    color: red;
-  }
-  .placing{
-    position: absolute;
-    top: 0;
-    right: 10px;
-    
-  }
-  .menuItem{
-    text-align: end;
-  }
-  
+table {
+  margin-top: 2em;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 1.2rem;
+  margin-bottom: 15em;
+}
+
+th {
+  border-bottom: 1px solid #ddd;
+}
+
+th,
+td {
+  width: 80%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr:nth-child(2) {
+  text-align: left;
+}
