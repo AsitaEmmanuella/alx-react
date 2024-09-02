@@ -1,26 +1,28 @@
 
-table {
-  margin-top: 2em;
-  width: 100%;
-  border: 1px solid #ddd;
-  font-size: 1.2rem;
-  margin-bottom: 15em;
+
+.Notifications {
+  padding: 1em;
+  border: 2px dashed red;
+  position: absolute;
+  top: 1.8em;
+  right: 0;
 }
 
-th {
-  border-bottom: 1px solid #ddd;
+.notification-header {
+  display: flex;
+  justify-content: space-between;
 }
 
-th,
-td {
-  width: 80%;
+.menuItem {
+  text-align: right;
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
+[data-notification-type="default"] {
+  color: blue;
 }
 
-tr:nth-child(2) {
-  text-align: left;
+[data-urgent],
+[data-notification-type="urgent"] {
+  color: red;
 }
+

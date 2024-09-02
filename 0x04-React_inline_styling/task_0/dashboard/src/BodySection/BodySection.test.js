@@ -1,5 +1,4 @@
 
-
 import React from "react";
 import BodySection from "./BodySection";
 import { shallow } from "enzyme";
